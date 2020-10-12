@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_virus_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_mycountry"
+            android:icon="@drawable/ic_coronavirus_country"
+            android:title="@string/menu_country" />
+        <item
+            android:id="@+id/nav_mystate"
+            android:icon="@drawable/ic_map_state"
+            android:title="@string/track_my_state" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share"
+            android:title="@string/share" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="About App" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_logout" />
+
+
+    </group>
+</menu>

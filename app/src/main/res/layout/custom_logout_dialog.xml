@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="10dp"
+    android:layout_gravity="center"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_covid">
+        </ImageView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STOP COVID19"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:textColor="#FA233F"
+            android:fontFamily="@font/fredoka_one"
+            android:paddingStart="20dp">
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure you want to close?"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/black"
+        android:textAlignment="textStart">
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO"
+            android:textColor="#FA233F"
+            android:fontFamily="@font/fredoka_one"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:id="@+id/no_id">
+
+        </TextView>
+
+        <View
+            android:layout_width="30dp"
+            android:layout_height="match_parent">
+
+        </View>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YES"
+            android:textColor="#FA233F"
+            android:fontFamily="@font/fredoka_one"
+            android:padding="15dp"
+            android:textSize="15sp"
+            android:id="@+id/yes_id">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

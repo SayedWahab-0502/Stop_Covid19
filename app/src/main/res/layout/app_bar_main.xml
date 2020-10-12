@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigationMain">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:background="@drawable/background_toolbar"
+        android:id="@+id/logo_toolbar">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark"
+            android:layout_marginTop="5dp"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="25dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="@string/st"
+                    android:textColor="#FA233F"
+                    android:textSize="25sp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="23dp"
+                    android:src="@drawable/ic_covid"
+                    >
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="@string/p"
+                    android:textColor="#FA233F"
+                    android:textSize="25sp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="@string/c"
+                    android:textColor="#FA233F"
+                    android:textSize="25sp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="23dp"
+                    android:src="@drawable/ic_virus">
+                </ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_one"
+                    android:text="@string/vid19"
+                    android:textColor="#FA233F"
+                    android:textSize="25sp"
+                    android:textStyle="normal">
+
+                </TextView>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        
+
+    </RelativeLayout>
+
+
+
+    <include layout="@layout/content_main"
+        android:layout_below="@+id/cardview_graph"
+        android:layout_marginTop="110dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</RelativeLayout>

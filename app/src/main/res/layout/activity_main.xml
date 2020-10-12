@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_gradient"
+    android:id="@+id/splash_relativelayout">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/linear_splash"
+    android:layout_centerInParent="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/st"
+            android:textColor="#FA233F"
+            android:textSize="55sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+    <ImageView
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@drawable/ic_covid"
+        android:scaleType="fitXY"
+        android:id="@+id/covid_icon"
+
+       >
+    </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/p"
+            android:textColor="#FA233F"
+            android:textSize="55sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/c"
+            android:textColor="#FA233F"
+            android:textSize="55sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="52dp"
+            android:src="@drawable/ic_virus"
+            android:scaleType="fitXY"
+            >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/fredoka_one"
+            android:text="@string/vid19"
+            android:textColor="#FA233F"
+            android:textSize="55sp"
+            android:textStyle="normal">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+</RelativeLayout>

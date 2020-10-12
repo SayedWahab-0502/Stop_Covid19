@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mystate"
+    android:padding="20dp"
+    android:background="@drawable/background_gradient">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_backarrow"
+            app:tint="@color/black"
+            android:padding="5dp"
+            android:id="@+id/back_arrow_mystate">
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_refresh_24"
+            app:tint="@color/black"
+            android:padding="5dp"
+            android:id="@+id/refresh_mystate"
+            android:layout_alignParentEnd="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/logo_mystate"
+        android:layout_marginTop="25dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/st"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_covid"
+                >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/p"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/c"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_virus">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/vid19"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="6dp"
+        android:elevation="8dp"
+        android:layout_below="@+id/logo_mystate">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingVertical="15dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical"
+                    android:id="@+id/top_linear_state">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Last Updated"
+                        android:gravity="center_horizontal"
+                        android:textSize="11sp">
+                    </TextView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2"
+                        android:orientation="horizontal">
+
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:layout_weight="1"
+                            android:textAlignment="textEnd"
+                            android:id="@+id/textdate"
+                            android:textSize="11sp">
+                        </TextView>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:layout_weight="1"
+                            android:textAlignment="textStart"
+                            android:id="@+id/texttime"
+                            android:layout_marginStart="4dp"
+                            android:textSize="11sp">
+                        </TextView>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="3"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/asul"
+                                android:text="Deaths"
+                                android:textColor="@color/deaths"></TextView>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_virus"
+                                app:tint="@color/deaths"
+                                android:layout_marginTop="3dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/deaths_india"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_bold"
+                                android:text="0"
+                                android:textColor="@color/deaths"></TextView>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/asul"
+                                android:text="Confirmed Cases"
+                                android:textColor="@color/active"
+                                android:textAlignment="center"
+                                ></TextView>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_patient"
+                                app:tint="@color/active"
+                                android:layout_marginTop="3dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/confirm_cases_india"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_bold"
+                                android:text="0"
+                                android:textColor="@color/active"></TextView>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical"
+                            android:gravity="center">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/asul"
+                                android:text="Recovered"
+                                android:textColor="@color/recovered"></TextView>
+
+                            <ImageView
+                                android:layout_width="40dp"
+                                android:layout_height="40dp"
+                                android:src="@drawable/ic_heartbeat"
+                                app:tint="@color/recovered"
+                                android:layout_marginTop="3dp">
+
+                            </ImageView>
+
+                            <TextView
+                                android:id="@+id/recovered_india"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/open_sans_bold"
+                                android:text="0"
+                                android:textColor="@color/recovered"></TextView>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/listview_mystate"
+                    android:layout_margin="15dp">
+                </ListView>
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+        <include layout="@layout/progressdialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </include>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+</RelativeLayout>

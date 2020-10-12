@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutApp"
+    android:padding="20dp"
+    android:background="@drawable/background_gradient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_backarrow"
+            app:tint="@color/black"
+            android:padding="5dp"
+            android:id="@+id/back_arrow_aboutapp">
+        </ImageView>
+
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/logo_aboutapp"
+        android:layout_marginTop="25dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/st"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_covid"
+                >
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/p"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/c"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="23dp"
+                android:src="@drawable/ic_virus">
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fredoka_one"
+                android:text="@string/vid19"
+                android:textColor="#FA233F"
+                android:textSize="25sp"
+                android:textStyle="normal">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/logo_aboutapp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="6dp"
+        android:elevation="8dp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginHorizontal="15dp"
+            android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/asul"
+                android:text="About App"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textAlignment="center">
+            </TextView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="3dp"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/line_background">
+
+            </View>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:text="App Features :"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textAlignment="center">
+                </TextView>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/line_background">
+
+                </View>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/_1_firebase_login_register"
+                android:fontFamily="@font/asul">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="2 - Phone no OTP Authenticaiotn."
+                android:fontFamily="@font/asul">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="3 - Global Covid-19 Stats."
+                android:fontFamily="@font/asul">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="4 - Worldwide Affected Countries Covid-19 Stats."
+                android:fontFamily="@font/asul">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="5 - India's states Covid-19 Stats."
+                android:fontFamily="@font/asul">
+
+            </TextView>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/asul"
+                    android:text="Statistics Sources :"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:textAlignment="center">
+                </TextView>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/line_background">
+
+                </View>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/api_text"
+                android:fontFamily="@font/asul">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/stats_sources"
+                android:fontFamily="@font/asul">
+
+            </TextView>
+
+        </LinearLayout>
+    </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</RelativeLayout>
