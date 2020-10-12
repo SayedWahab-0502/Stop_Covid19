@@ -96,6 +96,7 @@ public class RegisterScreen extends AppCompatActivity {
 
         intent.putExtra("Whattodo","createNewUser");  //this disitnguish if the user is coming from signup screen or update password
         startActivity(intent);
+        finish();
 
         progressDialog.setVisibility(View.GONE);
 
