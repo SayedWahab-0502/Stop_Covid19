@@ -1,4 +1,4 @@
-package com.example.stop_covid19;
+package com.example.stop_covid19.ActivityClasses;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.chaos.view.PinView;
 import com.example.stop_covid19.Databasehelper.UserHelperClass;
+import com.example.stop_covid19.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.gms.tasks.TaskExecutors;

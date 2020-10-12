@@ -13,7 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
-import com.example.stop_covid19.MyCountry;
+import com.example.stop_covid19.ActivityClasses.MyCountry;
 import com.example.stop_covid19.R;
 
 import java.util.ArrayList;

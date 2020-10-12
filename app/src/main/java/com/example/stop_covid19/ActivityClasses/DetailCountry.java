@@ -1,4 +1,4 @@
-package com.example.stop_covid19;
+package com.example.stop_covid19.ActivityClasses;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.example.stop_covid19.R;
 
 import java.text.NumberFormat;
 

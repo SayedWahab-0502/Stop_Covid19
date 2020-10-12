@@ -1,4 +1,4 @@
-package com.example.stop_covid19;
+package com.example.stop_covid19.ActivityClasses;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,6 +13,7 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.example.stop_covid19.Databasehelper.CheckInternet;
+import com.example.stop_covid19.R;
 import com.google.android.material.textfield.TextInputLayout;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

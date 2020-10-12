@@ -16,30 +16,30 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".AboutApp" />
+        <activity android:name=".ActivityClasses.AboutApp" />
 
-        <activity android:name=".DetailCountry" />
+        <activity android:name=".ActivityClasses.DetailCountry" />
 
-        <activity android:name=".MyCountry" />
-        <activity android:name=".Mystate" />
-        <activity android:name=".VerifyOTP"
+        <activity android:name=".ActivityClasses.MyCountry" />
+        <activity android:name=".ActivityClasses.Mystate" />
+        <activity android:name=".ActivityClasses.VerifyOTP"
         android:theme="@style/Splash_Screen" />
         <activity
-            android:name=".SetnewPassword"
+            android:name=".ActivityClasses.SetnewPassword"
             android:theme="@style/Splash_Screen2" />
         <activity
-            android:name=".PasswordUpdated"
+            android:name=".ActivityClasses.PasswordUpdated"
             android:theme="@style/Splash_Screen2" />
 
-        <activity android:name=".NavigationMain"
+        <activity android:name=".ActivityClasses.NavigationMain"
         android:theme="@style/AppTheme.NoActionBar"
             />
-        <activity android:name=".ForgotPassword" />
-        <activity android:name=".RegisterScreen" />
-        <activity android:name=".LoginScreen"/>
+        <activity android:name=".ActivityClasses.ForgotPassword" />
+        <activity android:name=".ActivityClasses.RegisterScreen" />
+        <activity android:name=".ActivityClasses.LoginScreen"/>
 
 
-        <activity  android:name=".MainActivity"
+        <activity  android:name=".ActivityClasses.MainActivity"
             android:theme="@style/Splash_Screen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

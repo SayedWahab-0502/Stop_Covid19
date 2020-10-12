@@ -1,10 +1,12 @@
-package com.example.stop_covid19;
+package com.example.stop_covid19.ActivityClasses;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.stop_covid19.R;
 
 public class PasswordUpdated extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.stop_covid19;
+package com.example.stop_covid19.ActivityClasses;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
@@ -25,6 +25,7 @@ import com.example.stop_covid19.ModelHelper.CountryModel;
 import com.example.stop_covid19.ModelHelper.MyCustomAdapter;
 import com.example.stop_covid19.ModelHelper.MyStateAdapter;
 import com.example.stop_covid19.ModelHelper.StatesModel;
+import com.example.stop_covid19.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,4 +1,4 @@
-package com.example.stop_covid19;
+package com.example.stop_covid19.ActivityClasses;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -24,6 +24,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.stop_covid19.ModelHelper.CountryModel;
 import com.example.stop_covid19.ModelHelper.MyCustomAdapter;
+import com.example.stop_covid19.R;
 import com.google.android.material.textfield.TextInputEditText;
 import com.leo.simplearcloader.SimpleArcLoader;
 
