@@ -200,7 +200,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="2 - Phone no OTP Authenticaiotn."
+                android:text="2 - Phone no OTP Authentication."
                 android:fontFamily="@font/asul">
 
             </TextView>
