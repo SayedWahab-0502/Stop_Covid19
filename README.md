@@ -20,3 +20,4 @@
 3 - Tip's on Mental & Physical Health.
 
  <h1>Screenshots of the Application</h1>
+<img src="App_Screenshots/Screenshot_2020-10-13-02-15-24-606_com.example.stop_covid19.png" width="400"/>
