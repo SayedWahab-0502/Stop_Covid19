@@ -92,7 +92,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
 
-                Uri uri = Uri.parse("smsto:" + "+91 9013353535");
+                Uri uri = Uri.parse("smsto:" + "+91-9013353535");
                 Intent i = new Intent(Intent.ACTION_SENDTO, uri);
                 i.setPackage("com.whatsapp");
                 startActivity(i);

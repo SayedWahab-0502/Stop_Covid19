@@ -132,8 +132,8 @@ public class NavigationMain extends AppCompatActivity implements NavigationView.
                 Intent i = new Intent(Intent.ACTION_SEND);
                 i.setType("text/plain");
                 i.putExtra(Intent.EXTRA_SUBJECT, "App ");
-                String sAux = "App Features : \n 1 - Firebase Login & Register. \n 2 - Phone no OTP Authenticaiotn. \n 3 - Global Covid-19 Stats. \n 4 - Worldwide Affected Countries Covid-19 Stats. \n 5 - India's states Covid-19 Stats. \n\n Download the app throught the below link. \n";
-                sAux = sAux + "https://bit.ly/34KYIAo";
+                String sAux = "App Features : \n 1 - Firebase Login & Register. \n 2 - Phone no OTP Authentication. \n 3 - Global Covid-19 Stats. \n 4 - Worldwide Affected Countries Covid-19 Stats. \n 5 - India's states Covid-19 Stats. \n\n Download the app throught the below link. \n";
+                sAux = sAux + "https://bit.ly/2T1bntH";
                 i.putExtra(Intent.EXTRA_TEXT, sAux);
                 startActivity(Intent.createChooser(i, "Share"));
                 break;
